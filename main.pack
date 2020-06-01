@@ -1,0 +1,23 @@
+﻿% own pack
+#include @"main.ph"
+
+#requires @"settingsDialog.dlg"
+% privately used packages
+#include @"gameForm\gameForm.ph"
+#include @"pfc\string\string.ph"
+#include @"pfc\gui\controls\groupBox\groupBox.ph"
+#include @"pfc\gui\controls\textControl\textControl.ph"
+#include @"pfc\gui\controls\editControl\editControl.ph"
+#include @"pfc\resourceIdentifiers.ph"
+#include @"pfc\application\Exe\exe.ph"
+#include @"pfc\gui\gui.ph"
+#include @"TaskWindow\TaskWindow.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"settingsDialog.pro"
+#include @"main.pro"
+

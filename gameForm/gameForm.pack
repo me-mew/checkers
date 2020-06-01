@@ -1,0 +1,16 @@
+﻿#include @"gameForm\gameForm.ph"
+
+#requires @"gameForm\gameForm.frm"
+% privately used packages
+#include @"gameControl\gameControl.ph"
+#include @"pfc\gui\controls\button\button.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\vpi\vpiDomains\vpiDomains.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"gameForm\gameForm.pro"
